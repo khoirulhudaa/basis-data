@@ -728,6 +728,7 @@ nav ul li {
     margin-bottom: 20px;
     width: 100vw;
     height: max-content;
+    overflow: hidden;
 }
 
 .sec-about .wrap-sec-about {
@@ -739,6 +740,7 @@ nav ul li {
 .sec-about .wrap-sec-about div {
     padding: 10px;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     text-align: left;
@@ -748,6 +750,7 @@ nav ul li {
     justify-content: center;
     text-align: left;
     align-items: center;
+    overflow: hidden;
     width: 50%;
 }
 
@@ -1082,7 +1085,7 @@ nav ul li {
         margin-top: 60px;
         font-size: 17.6px;
         line-height: 2em;
-        color: white;
+        color: black;
     }
         
     #pakeType {
@@ -1169,7 +1172,7 @@ nav ul li {
     .jumbotron {
         position: relative;
         height: max-content;
-        background-image: url('../images/public/hero.jpeg'); 
+        background-image: url('../images/public/f.jpg'); 
         width: 100vw;
         background-size: cover;
         background-position: center;
@@ -1332,8 +1335,9 @@ nav ul li {
         width: 90vw;
         border-radius: 12px;
         border: none;
+        color: white;
         outline: none;
-        background-color: #fff;
+        background-color: #3d3d3d;
         box-shadow: 0 1px 2px rgba(0,0,0,0.02), 
                     0 1px 4px rgba(0,0,0,0.04), 
                     0 1px 8px rgba(0,0,0,0.08), 
@@ -1445,7 +1449,8 @@ nav ul li {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100vw;
+    margin-left: -50px;
+    width: 110vw;
 }
 
 .sec-about .wrap-sec-about div {
@@ -1481,13 +1486,14 @@ nav ul li {
 .about-content p {
     position: relative;
     left: 7px;
+    color:black;
     width: 95vw;
     line-height: 2em;
 }
 
 .sec-about .wrap-sec-about p {
     width: 100%;
-    color: white;
+    color: black;
 }
 
 .sec-about .wrap-sec-about img {
